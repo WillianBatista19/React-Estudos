@@ -1,12 +1,16 @@
 import './App.css';
 import SayMyName from './components/SayMyName';
 import Pessoa from './components/Pessoa';
+import Frase from './components/Frase';
 
 function App() {
   const nome='Bia'
 
   return (
     <div className="App">
+      <h1>Testando CSS</h1>
+      <Frase />
+      <Frase /> 
       <SayMyName nome="Willian"/>
       <SayMyName nome="Rodrigo"/>
       <SayMyName  nome={nome} />
