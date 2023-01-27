@@ -1,6 +1,6 @@
 import './App.css';
 import Evento from './components/Evento';
-import Form from './components/Form';
+import Form from './components/Forms/Form';
 
 function App() {
 
